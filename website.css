@@ -1,0 +1,133 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    height: 1700px;
+    
+}
+.main-body{
+    width: 100%;
+    
+}
+.header{
+    min-width: 1000px;
+    width: 100%;
+    height: 54px;
+    position: fixed;
+    background-color: #ffff;
+}
+img{
+    height: 60%;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.search-bar-box{
+    float: left;
+    width: 600px;
+    position: absolute;
+    left: 30%;
+    margin-top: 10px;
+    
+
+}
+input{
+    float: left;
+    width: 85%;
+    height: 35px;
+    border-radius: 20px ;
+    border: solid 2px burlywood;
+    padding-left: 20px;
+}
+#acc-logo{
+    float: right;
+    margin-right: 50px;
+}
+input:focus{
+    outline: none;
+}
+.mic-button{
+    height: 25px;
+    width: 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+    float: left;
+    
+}
+.img-mic{
+    margin-top: 0px;        
+    width: 20px;
+    height:20px ;
+    margin-left: -7px;
+}
+.menu{
+    padding-left: 10px;
+    padding-top: 58px;
+    width: 200px;
+    height: 900px;
+    position: fixed;
+    float: left ;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+.menu-box{
+    padding-top: 15px;
+    margin: 1px;
+    padding-left: 15px;
+    width: 132;
+    height: 35px;
+    border-radius: 15px;
+    background-color: #ffff;
+    
+}
+#home-box{
+    margin-top: 20px;
+}
+.image-box-home{
+    margin-top: -5px;
+    height: 60%;
+}
+.menu-box:hover{
+    background-color: rgb(228, 228, 228);
+}
+.text-box-menu{
+    text-align: center;
+    padding-left: 20px;
+}
+.video-box{
+    padding-left: 50px;
+    
+    height: auto;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px ;
+    
+}
+.video-box-result{
+    
+    margin: 10px;
+    height: 210px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.video-box-result:hover{
+    box-shadow:10px 10xp 10px red;
+}
+.video-player{
+    width: 400px;
+    height: 250px;
+}
+iframe{
+    background-color: rgb(210, 210, 210);
+    border-radius: 20px;
+}
+.icon{
+    float: left;
+    padding-left: 5px;
+}
+#icon-img{
+   height: 50px;
+   border-radius: 20px;
+}

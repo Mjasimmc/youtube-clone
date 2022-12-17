@@ -103,7 +103,7 @@ input:focus{
     height: auto;
     margin-left: 150px;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     
 }
 .video-box-result{
